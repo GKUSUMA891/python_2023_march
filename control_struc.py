@@ -27,4 +27,60 @@ result:
       c++
       kus
       idiot
+      ---------------------------------------------------------------
+i = 1
+while i < 6:
+  print(i)
+  i += 1
+else:
+  print("i is no longer less than 6")
+result:
+      1
+      2
+      3
+      4
+      5
+      i is no longer less than 6
+  ---------------------------------------------------
+  ii=0
+while ii<6:
+    ii+=1
+    #print(i)
+    if ii==5:
+        continue
+    print(ii)
+result:
+      1
+      2
+      3
+      4
+      6
+      -----------------------------------------------------------------------
+        print([i])
+i = 1
+while i < 6:
+  print(i)
+  if (i == 3):
+    break
+  i += 1
+      result:
+            1
+            2
+            3
+      --------------------------------------------------------------
+i=0
+while i<6:
+    i+=1
+    #print(i)
+    if i==5:
+        continue
+    print(i)
+result:
+      1
+      2
+      3
+      4
+      6
+
+
 
