@@ -17,3 +17,14 @@ result:
         enter c value:44
         c is largest
         a and b are not same
+            -----------------------------------------------------------------------
+for i in ["string","c++","kus","idiot"]:
+    print(i)
+    if i==len(i):
+        print([i])
+result:
+      string
+      c++
+      kus
+      idiot
+
